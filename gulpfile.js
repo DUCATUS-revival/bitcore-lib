@@ -1,5 +1,5 @@
 
 
-var litecoreTasks = require('litecore-build');
+var bitcoreTasks = require('bitcore-build');
 
-litecoreTasks('lib');
+bitcoreTasks('lib');
