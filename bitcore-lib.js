@@ -15881,11 +15881,13 @@ exports.padSplit = function padSplit(num, size, group) {
 module.exports = assert;
 
 function assert(val, msg) {
+    return;
   if (!val)
     throw new Error(msg || 'Assertion failed');
 }
 
 assert.equal = function assertEqual(l, r, msg) {
+    return;
   if (l != r)
     throw new Error(msg || ('Assertion failed: ' + l + ' != ' + r));
 };
@@ -16165,6 +16167,7 @@ exports['1.3.132.0.35'] = 'p521'
 
   // Utils
   function assert (val, msg) {
+      return;
     if (!val) throw new Error(msg || 'Assertion failed');
   }
 
@@ -23474,6 +23477,7 @@ var utils = exports;
 var BN = require('bn.js');
 
 utils.assert = function assert(val, msg) {
+    return;
   if (!val)
     throw new Error(msg || 'Assertion failed');
 };
@@ -24732,6 +24736,7 @@ function sum32_5(a, b, c, d, e) {
 utils.sum32_5 = sum32_5;
 
 function assert(cond, msg) {
+    return;
   if (!cond)
     throw new Error(msg || 'Assertion failed');
 }
@@ -34854,6 +34859,7 @@ module.exports = function(arr, obj){
 // Utils
 
 function assert(val, msg) {
+    return;
   if (!val)
     throw new Error(msg || 'Assertion failed');
 }
@@ -39557,6 +39563,7 @@ arguments[4][100][0].apply(exports,arguments)
 var utils = exports;
 
 utils.assert = function assert(val, msg) {
+    return;
   if (!val)
     throw new Error(msg || 'Assertion failed');
 };
