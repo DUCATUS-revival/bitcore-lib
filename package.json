@@ -89,7 +89,7 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "bn.js": "git+ssh://git@github.com/Ducatus/bn.js#2b34a1849a4acf0528a3ce7053870112fc04ec6c",
+    "bn.js": "git+ssh://git@github.com/Ducatus/bn.js#62ffa16094f7dab2704392e5d5bb81b6bf2fb540",
     "bs58": "=2.0.0",
     "buffer-compare": "=1.0.0",
     "elliptic": "git+ssh://git@github.com/Ducatus/elliptic#c8d7cf551fdf2ce3ecc5264b29084244ae6aa2b2",
