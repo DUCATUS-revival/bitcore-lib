@@ -9037,12 +9037,15 @@ Object.defineProperty(Output.prototype, 'satoshis', {
 
 Output.prototype.invalidSatoshis = function() {
   if (this._satoshis > MAX_SAFE_INTEGER) {
+		console.log("HERE1");
     return 'transaction txout satoshis greater than max safe integer';
   }
   if (this._satoshis !== this._satoshisBN.toNumber()) {
+		console.log("HERE2");
     return 'transaction txout satoshis has corrupted value';
   }
   if (this._satoshis < 0) {
+		console.log("HERE3");
     return 'transaction txout negative';
   }
   return false;
