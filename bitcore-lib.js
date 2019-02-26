@@ -8969,7 +8969,7 @@ var Script = require('../script');
 var $ = require('../util/preconditions');
 var errors = require('../errors');
 
-var MAX_SAFE_INTEGER = 0x1fffffffffffff;
+var MAX_SAFE_INTEGER = 0xffffffffffffff;
 
 function Output(args) {
   if (!(this instanceof Output)) {
